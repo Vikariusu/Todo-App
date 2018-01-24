@@ -3,10 +3,13 @@ Exercise in React/Node, full STACK below.
 
 #### Get started
 
-To start the server run:
+Run in both API and frontend directory:
+`npm install`
+
+To start the server go to API directory and run:
 `node index.js`
 
-To start React app run:
+To start React app go to frontend directory and run:
 `npm run`
 
 #### API
