@@ -10,7 +10,7 @@ To start the server go to API directory and run:
 `node index.js`
 
 To start React app go to frontend directory and run:
-`npm run`
+`npm start`
 
 #### API
 * made with Node, Express, MongoDB, Mongoose
