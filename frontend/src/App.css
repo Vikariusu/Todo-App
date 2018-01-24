@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Catamaran");
+body {
+  background-color: #e9ece5;
+  font-size: 19px;
+  font-family: 'Catamaran', sans-serif; }
+
+.page-header {
+  margin: 50px 0 40px 0;
+  font-size: 40px;
+  color: #9fa8a3;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-family: "Lato", sans-serif; }
+
+.app-wrapper {
+  text-align: center;
+  width: 285px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-field {
+  padding: 20px 0 50px 0; }
+  .input-field input {
+    border: none;
+    height: 38px;
+    width: 180px;
+    color: #9fa8a3;
+    font-size: 13px; }
+  .input-field .input-btn {
+    height: 41px;
+    width: 100px;
+    border: none;
+    background-color: #9eb8a8;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer; }
+
+.input-field input, .input-btn {
+  -webkit-box-shadow: 0px 5px 14px -1px rgba(122, 122, 122, 0.32);
+  -moz-box-shadow: 0px 5px 14px -1px rgba(122, 122, 122, 0.32);
+  box-shadow: 0px 5px 14px -1px rgba(122, 122, 122, 0.32); }
+
+.todo-element {
+  color: #9fa8a3;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  list-style: none;
+  text-align: left;
+  width: 100%;
+  font-family: 'Catamaran', sans-serif; }
+  .todo-element .delete-btn {
+    color: pink;
+    text-align: right;
+    float: right;
+    padding-right: 10px;
+    color: #9eb8a8;
+    cursor: pointer; }
+
+.credits {
+  color: #9fa8a3;
+  position: absolute;
+  bottom: 10px;
+  right: 10px; }
+  .credits a {
+    color: #94b19f;
+    text-decoration: none; }
